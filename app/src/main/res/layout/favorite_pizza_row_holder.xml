@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin8"
+    android:padding="@dimen/padding"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:id="@+id/row_pizza_linear_layout">
+
+    <TextView
+        android:id="@+id/pizza_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/orange_dark"
+        android:textSize="@dimen/textSize18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pizza_ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize18" />
+
+</LinearLayout>

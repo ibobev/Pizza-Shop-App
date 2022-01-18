@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Pizza Shop</string>
+    <string name="toppings">Extra toppings</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="mozzarella">Mozzarella</string>
+    <string name="mushrooms">Mushrooms</string>
+    <string name="bacon">Bacon</string>
+    <string name="onions">Onions</string>
+    <string name="quantity">Quantity</string>
+    <string name="remove">-</string>
+    <string name="add">+</string>
+    <string name="add_to_cart_text">Add to Cart</string>
+    <string name="add_to_favorites_text">Add to favorites</string>
+    <string name="_1">1</string>
+    <string name="add_details_to_database">Add details to database</string>
+    <string name="add_account_details">Create Account</string>
+    <string name="enter_your_first_name">Enter your first name…</string>
+    <string name="enter_your_last_name">Enter your last name…</string>
+    <string name="enter_your_address">Enter your address…</string>
+    <string name="add_details_headline">Account Details</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="update_details_headline">Update/Delete</string>
+    <string name="update">Update</string>
+
+    <string-array name="city_array">
+        <item>Sofia</item>
+        <item>Plovdiv</item>
+        <item>Varna</item>
+        <item>Ruse</item>
+        <item>Burgas</item>
+        <item>Pleven</item>
+        <item>Veliko Tarnovo</item>
+    </string-array>
+
+    <string name="cart">Shopping Cart</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="cart_label">Cart Details</string>
+    <string name="remove_item">Remove from shopping cart</string>
+    <string name="checkout">Complete Order</string>
+    <string name="empty_cart">Cart is empty</string>
+    <string name="date">Date Picker</string>
+    <string name="time">Time Picker</string>
+</resources>

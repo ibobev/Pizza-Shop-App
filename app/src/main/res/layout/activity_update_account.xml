@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/update_details_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:text="@string/update_details_headline"
+            android:textColor="@color/orange_dark"
+            android:textSize="@dimen/textSize32"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/update_details_header"
+            android:layout_margin="@dimen/margin"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/update_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin8"
+                android:autofillHints="name"
+                android:hint="@string/enter_your_first_name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/gray" />
+
+            <EditText
+                android:id="@+id/update_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin8"
+                android:autofillHints="name"
+                android:hint="@string/enter_your_last_name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="@color/gray" />
+
+            <EditText
+                android:id="@+id/update_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin8"
+                android:autofillHints="postalAddress"
+                android:hint="@string/enter_your_address"
+                android:inputType="textPostalAddress"
+                android:minHeight="48dp"
+                android:textColorHint="@color/gray" />
+
+            <Spinner
+                android:id="@+id/update_city_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin8" />
+
+            <TextView
+                android:id="@+id/update_city_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin8" />
+
+            <ImageButton
+                android:id="@+id/btn_update_account_details"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin8"
+                android:backgroundTint="@color/green"
+                android:contentDescription="@string/update"
+                android:src="@drawable/ic_baseline_check_24" />
+
+            <ImageButton
+                android:id="@+id/btn_delete_account"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin8"
+                android:backgroundTint="@color/red"
+                android:contentDescription="@string/delete_account"
+                android:src="@drawable/ic_baseline_person_remove_24" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize16">16sp</dimen>
+    <dimen name="textSize18">18sp</dimen>
+    <dimen name="textSize32">32sp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="menu_item_list_size">130dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+</resources>
